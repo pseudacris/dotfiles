@@ -142,6 +142,13 @@ alias ni='nvim ~/.config/nvim/init.lua'
 alias nz='nvim ~/.zshrc'
 alias nq='nvim ~/.config/qtile/config.py'
 
+#git
+alias gcm='git commit -m'
+alias gc='git commit'
+alias gs='git status'
+alias gp='git push origin main'
+alias ga='git add'
+
 #protonvpn-cli
 alias pon='protonvpn-cli c -f && protonvpn-cli ks --permanent'
 alias poff='protonvpn-cli d && protonvpn-cli ks --off'
