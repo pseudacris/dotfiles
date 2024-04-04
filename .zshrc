@@ -553,3 +553,5 @@ fastfetch
 #
 #
 PROMPT="${PROMPT/\%I/%H}"
+
+
