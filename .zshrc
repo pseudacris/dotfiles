@@ -1,4 +1,4 @@
-# If you come from bash you might have to change your $PATH.
+#lias/ If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -89,7 +89,7 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR=nvim
 export VISUAL=nvim
-
+export PATH=$PATH:/home/donny/.local/bin
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -101,9 +101,17 @@ export VISUAL=nvim
 
 ### ALIASES ###
 
-alias nz="nvim ~/.zshrc"
-alias ni="nvim ~/.config/nvim/init.lua"
+# neovim
+alias nz='nvim ~/.zshrc'
+alias ni='nvim ~/.config/nvim/init.lua'
 alias nq='nvim ~/.config/qtile/config.py'  
+alias nh='nvim ~/.config/hypr/hyprland.conf'
+
+# vs code
+alias cz='code ~/.zshrc'
+alias ci='code ~/.config/nvim/init.lua'
+alias cq='code ~/.config/qtile/config.py'
+alias ch='code ~/.config/hypr/hyprland.conf'
 
 # proton vpn 
 alias pon='protonvpn-cli c -f && protonvpn-cli ks --permanent'                
@@ -118,6 +126,13 @@ alias gs='git status'
 alias gp='git push origin main'
 alias ga='git add'
 alias gcl='git clone'
+
+# dnf
+alias di='sudo dnf install'
+alias dr='sudo dnf remove'
+alias dup='sudo dnf update'
+alias dug='sudo dnf upgrade'
+alias dupug='sudo dnf update && sudo dnf upgrade'
 
 # 24hr clock prompt
 PROMPT="${PROMPT/\%I/%H}"
