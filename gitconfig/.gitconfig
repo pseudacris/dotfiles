@@ -1,0 +1,9 @@
+[user]
+	name = pseudacris
+	email = hyliola@pm.me
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[pull]
+	rebase = false
