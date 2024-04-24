@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=bash -c "sleep 10 && protonvpn-cli c -f && protonvpn-cli ks --permanent"
+Name=ProtonVPN Autoconnect
+Comment=Wait 10 seconds & autoconnect to the fastest server & engage permanent killswitch
+Type=Application
+Icon=protonvpn-logo
