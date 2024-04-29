@@ -127,6 +127,10 @@ alias gp='git push origin main'
 alias ga='git add'
 alias gcl='git clone'
 
+# pacman
+alias ps='sudo pacman -S'
+alias pr='sudo pacman -Rns'
+
 # dnf
 alias di='sudo dnf install'
 alias dr='sudo dnf remove'
