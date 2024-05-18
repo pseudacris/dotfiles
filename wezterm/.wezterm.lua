@@ -14,5 +14,5 @@ config.color_scheme = 'Dracula (base16)'
 -- and finally, return the configuration to wezterm
 return config
 
-return window_background_opacity = 0.1
+-- return window_background_opacity = 0.1
 
