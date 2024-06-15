@@ -90,6 +90,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=nvim
 export VISUAL=nvim
 export PATH=$PATH:/home/donny/.local/bin
+export PATH=$PATH:/usr/bin/adb
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -142,3 +143,7 @@ alias dupug='sudo dnf update && sudo dnf upgrade'
 PROMPT="${PROMPT/\%I/%H}"
 
 fastfetch
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
