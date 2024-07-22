@@ -142,7 +142,8 @@ alias dupug='sudo dnf update && sudo dnf upgrade'
 # 24hr clock prompt
 PROMPT="${PROMPT/\%I/%H}"
 
-fastfetch
+#fastfetch
+nerdfetch
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
