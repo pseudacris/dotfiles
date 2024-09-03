@@ -142,13 +142,17 @@ alias dupug='sudo dnf update && sudo dnf upgrade'
 # 24hr clock prompt
 PROMPT="${PROMPT/\%I/%H}"
 
-<<<<<<< Updated upstream
+
 #fastfetch
 nerdfetch
-=======
-fastfetch
->>>>>>> Stashed changes
+
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH=$PATH:/home/keroppi/.spicetify
+
+# Created by `pipx` on 2024-08-20 14:20:58
+export PATH="$PATH:/home/keroppi/.local/bin"
