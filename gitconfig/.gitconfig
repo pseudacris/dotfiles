@@ -2,7 +2,7 @@
 	name = pseudacris
 	email = hyliola@pm.me
 [init]
-	defaultBranch = main
+	defaultbranch = main
 [color]
 	ui = auto
 [pull]
